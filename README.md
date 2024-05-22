@@ -7,8 +7,9 @@ Drowning in test papers?  OpenCV Hacks for Educators offers a lifeline!  This gu
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Example](#Example)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Feedback and Contributions ](#Feedback-and-Contributions)
 - [License](#license)
 
 ## Features
@@ -34,10 +35,10 @@ Drowning in test papers?  OpenCV Hacks for Educators offers a lifeline!  This gu
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/omr-scanner.git
-   cd omr-scanner
+   git clone https://github.com/Shubham-Saxena-16/omr_scanner.git
+   cd omr_scanner
 
-Install the required Python packages
+2. Install the required Python packages
 
 pip install opencv-python numpy imutils
 
@@ -50,17 +51,18 @@ Run the script:
  python omr_scanner.py
 
 ## Example 
-# Load and preprocess the image
+Load and preprocess the image
 image_path = r"path_to_your_omr_sheet.png"
 image = cv2.imread(image_path)
-# ... rest of the code
+(rest of the code will be same )
 
 ## Project Structure 
-omr-scanner/
-├── omr_scanner.ipynb       # Main script for OMR scanning and grading
-├── README.md            # Project README file
-├── requirements.txt     # List of required packages
-└── omr.pnj              # To store OMR sheet images
+
+omr-scanner
+   1. omr_scanner.ipynb    # Main script for OMR scanning and grading
+   2. README.md            # Project README file
+   3. requirements.txt     # List of required packages
+   4. omr.pnj              # To store OMR sheet images
 
 ## Feedback and Contributions 
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes. You can also open an issue to discuss any changes or enhancements.
